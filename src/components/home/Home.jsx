@@ -4,17 +4,18 @@ import { Link } from "react-router-dom";
 function Home({ data: { autoClickName, toDoName } }) {
   return (
     <>
-      <h1>Choose your app</h1>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/auto-clicker">{autoClickName}</Link>
-          </li>
-          <li>
-            <Link to="/to-do">{toDoName}</Link>
-          </li>
-        </ul>
-      </nav>
+      <div className="container">
+        <Link to="/auto-clicker">
+          <section className="autoclicker-container">
+            <h2>{autoClickName}</h2>
+          </section>
+        </Link>
+        <Link to="/to-do">
+          <section className="to-do-container">
+            <h2>{toDoName}</h2>
+          </section>
+        </Link>
+      </div>
     </>
   );
 }

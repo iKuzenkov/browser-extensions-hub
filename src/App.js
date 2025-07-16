@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Home from "./components/home/Home";
 import AutoClicker from "./components/auto-clicker/AutoClicker";
 import ToDo from "./components/to-do/ToDo";
