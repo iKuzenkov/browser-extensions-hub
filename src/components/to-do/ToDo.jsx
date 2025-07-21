@@ -9,7 +9,7 @@ import img3 from "../../images/todo/edit-tasks.png";
 function toDo({ data: { name, description, label, usage, btnBack } }) {
   return (
     <>
-      <div className="td-container">
+      <main className="td-container">
         <div className="td-back">
           <h3>
             <Link to="..">{btnBack}</Link>
@@ -44,8 +44,9 @@ function toDo({ data: { name, description, label, usage, btnBack } }) {
             })}
           </ol>
         </section>
+
         <Footer />
-      </div>
+      </main>
     </>
   );
 }

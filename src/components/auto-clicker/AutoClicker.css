@@ -1,8 +1,13 @@
 .ac-back {
+  position: absolute;
+  top: 1rem;
   align-self: flex-start;
-  background: linear-gradient(135deg, #7f00ff, #f5be09);
+  background: linear-gradient(135deg, #503869, #f5be09);
   border-radius: 20%;
-  margin-bottom: 1rem;
+}
+
+.ac-back:hover {
+  box-shadow: 0 0 0.3rem 0.3rem rgb(105, 107, 70);
 }
 
 .ac-back a {
@@ -15,11 +20,10 @@
 }
 
 .ac-container {
-  margin: 1rem auto;
+  margin: 0 auto;
   max-width: 75rem;
-  background: linear-gradient(135deg, #7f00ff, #f5be09);
-  border-radius: 5rem;
-  min-height: calc(30vh - 2rem);
+  background: linear-gradient(135deg, #543f69, #695a29);
+  min-height: 100vh;
   padding: 2.5rem 1.25rem;
   display: flex;
   flex-direction: column;
@@ -35,13 +39,9 @@
 }
 
 .ac-video-wrapper iframe {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
   aspect-ratio: 16 / 9;
-  border: none;
-}
-
-.ac-video-wrapper {
-  width: 70%;
   padding: 1rem;
 }
 
@@ -56,5 +56,5 @@
 }
 
 .ac-usage {
-  padding: 1rem;
+  padding: 3rem;
 }

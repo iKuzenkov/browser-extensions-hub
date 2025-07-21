@@ -5,7 +5,7 @@ const toDoData = {
   label: "How to Use",
   usage: [
     "Enter a task and press Add to add it to the list.",
-    "Click on a task to mark it as completed.",
+    "Set up a ckeckbox to mark it as completed.",
     "Click the ✏️ icon next to a task to edit it.",
     "Click 📋 to copy the task text to clipboard.",
     "Click the ⚪ icon next to a task to change its background.",

@@ -5,10 +5,10 @@ function Footer() {
   return (
     <>
       <footer className="info">
-        <Link to={"/terms/TermsOfService"}>Terms of Service</Link>
-        <Link to={"/terms/PrivacyPolicy"}>Privacy Policy</Link>
-        <Link to={"/terms/Contact"}>Contact</Link>
-        <Link to={"/terms/Donate"}>Donate</Link>
+        <Link to={"/terms/terms-of-service"}>Terms of Service</Link>
+        <Link to={"/terms/privacy-policy"}>Privacy Policy</Link>
+        <Link to={"/terms/contact"}>Contact</Link>
+        <Link to={"/terms/donate"}>Donate</Link>
       </footer>
     </>
   );

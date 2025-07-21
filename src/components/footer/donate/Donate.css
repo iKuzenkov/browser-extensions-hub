@@ -1,0 +1,36 @@
+.donate-back {
+  position: absolute;
+  top: 1rem;
+  align-self: flex-start;
+  background: linear-gradient(135deg, #503869, #f5be09);
+  border-radius: 20%;
+  margin-bottom: 1rem;
+}
+
+.donate-back:hover {
+  box-shadow: 0 0 0.3rem 0.3rem rgb(105, 107, 70);
+}
+
+.donate-back a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.donate-back a:hover {
+  color: rgb(214, 228, 21);
+}
+
+.donate-container {
+  margin: 0 auto;
+  max-width: 75rem;
+  background: linear-gradient(135deg, #543f69, #695a29);
+  min-height: 100vh;
+  padding: 2.5rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paypal-address {
+  padding: 1rem;
+}

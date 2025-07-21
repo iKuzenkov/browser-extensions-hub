@@ -1,10 +1,10 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import generalData from "./data/generalData";
-import autoClickerData from "./data/autoClickerData";
-import toDoData from "./data/toDoData";
-import footerData from "./data/footerData";
+import generalData from "./data/general-data";
+import autoClickerData from "./data/auto-clicker-data";
+import toDoData from "./data/to-do-data";
+import footerData from "./data/footer-data";
 
 import Home from "./components/home/Home";
 import AutoClicker from "./components/auto-clicker/AutoClicker";
@@ -27,10 +27,22 @@ function App() {
         />
         <Route path="/to-do" element={<ToDo data={toDoData} />} />
         <Route path="/footer" element={<Footer data={footerData} />} />
-        <Route path="/terms/TermsOfService" element={<Terms />} />
-        <Route path="/terms/PrivacyPolicy" element={<PrivacyPolicy />} />
-        <Route path="/terms/Contact" element={<Contact />} />
-        <Route path="/terms/Donate" element={<Donate />} />
+        <Route
+          path="/terms/terms-of-service"
+          element={<Terms data={footerData.terms} />}
+        />
+        <Route
+          path="/terms/privacy-policy"
+          element={<PrivacyPolicy data={footerData.policy} />}
+        />
+        <Route
+          path="/terms/contact"
+          element={<Contact data={footerData.contact} />}
+        />
+        <Route
+          path="/terms/donate"
+          element={<Donate data={footerData.donate} />}
+        />
         <Route path="*" element={<Error404 />} />
       </Routes>
     </Router>
