@@ -58,17 +58,18 @@
 }
 
 .td-images-wrapper {
-  margin: 0.5rem auto;
-  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem auto;
   padding: 1rem;
 }
 
 .td-images-wrapper img {
-  display: block;
-  margin: 0 auto;
   padding: 0.3rem;
-  width: 45rem;
-  height: 30.75rem;
+  max-width: 100%;
+  height: auto;
 }
 
 .td-usage {
@@ -78,13 +79,23 @@
 @media (max-width: 1200px) {
   .td-images-wrapper img {
     max-width: 38rem;
-    max-height: 28.75rem;
   }
 }
 
 @media (max-width: 768px) {
   .td-images-wrapper img {
-    max-width: 25rem;
-    max-height: 18.75rem;
+    max-width: 32rem;
+  }
+}
+
+@media (max-width: 672px) {
+  .td-images-wrapper img {
+    max-width: 26rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .td-images-wrapper img {
+    max-width: 20rem;
   }
 }
