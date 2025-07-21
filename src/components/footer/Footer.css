@@ -1,0 +1,23 @@
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.info a {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  text-decoration: none;
+  background: linear-gradient(135deg, #1eff00, #9fe740);
+  margin: 0 2rem;
+  padding: 0.3em;
+  border-radius: 10%;
+}
+
+.info a:hover {
+  color: #ff4500;
+  background: linear-gradient(135deg, #94ee8a, #46d8dd);
+  box-shadow: 0 0 0.5rem 0.5rem rgba(19, 241, 93, 0.3);
+}
