@@ -19,12 +19,10 @@ function toDo({ data: { name, description, label, usage, btnBack } }) {
           <h2>{name}</h2>
           <h4 className="td-description">{description}</h4>
         </section>
-        <section className="td-video-wrapper">
+        <section className="td-responsive-iframe">
           <iframe
-            width="100%"
-            height="600"
-            src="https://www.youtube.com/embed/rRX_7-3QiVo"
-            title="Advanced To-Do List"
+            src="https://www.youtube.com/embed/iBWH1rpaoWM"
+            title="Safe Auto Clicker"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"

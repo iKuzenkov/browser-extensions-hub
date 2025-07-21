@@ -19,10 +19,8 @@ function AutoClicker({ data: { name, description, label, usage, btnBack } }) {
           <h2>{name}</h2>
           <h4 className="ac-description">{description}</h4>
         </section>
-        <section className="ac-video-wrapper">
+        <section className="ac-responsive-iframe">
           <iframe
-            width="100%"
-            height="600"
             src="https://www.youtube.com/embed/iBWH1rpaoWM"
             title="Safe Auto Clicker"
             frameBorder="0"
