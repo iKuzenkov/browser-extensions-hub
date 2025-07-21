@@ -28,22 +28,19 @@ function App() {
         <Route path="/to-do" element={<ToDo data={toDoData} />} />
         <Route path="/footer" element={<Footer data={footerData} />} />
         <Route
-          path="/terms/terms-of-service"
+          path="/terms-of-service"
           element={<Terms data={footerData.terms} />}
         />
         <Route
-          path="/terms/privacy-policy"
+          path="/privacy-policy"
           element={<PrivacyPolicy data={footerData.policy} />}
         />
         <Route
-          path="/terms/contact"
+          path="/contact"
           element={<Contact data={footerData.contact} />}
         />
-        <Route
-          path="/terms/donate"
-          element={<Donate data={footerData.donate} />}
-        />
-        <Route path="*" element={<Error404 />} />
+        <Route path="/donate" element={<Donate data={footerData.donate} />} />
+        <Route path="*" element={<Error404 data={generalData} />} />
       </Routes>
     </Router>
   );
