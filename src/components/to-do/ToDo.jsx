@@ -21,7 +21,7 @@ function toDo({ data: { name, description, label, usage, btnBack } }) {
         </section>
         <section className="td-responsive-iframe">
           <iframe
-            src="https://www.youtube.com/embed/iBWH1rpaoWM"
+            src="https://www.youtube.com/embed/rRX_7-3QiVo"
             title="Safe Auto Clicker"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
